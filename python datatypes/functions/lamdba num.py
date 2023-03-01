@@ -20,3 +20,22 @@ if __name__ == "__main__":
     squarelist = list(map(lambda number: number ** 2, numlist))
     print("square number  ", squarelist)
 
+    nlist = [2,3,5,6,7,10]
+    sortedlist = sorted(nlist, reverse=True)
+    print("sorted list numbers are: ", sortedlist)
+
+    minnumber = min(nlist)
+    maxnumber = max(nlist)
+
+    print("minimum number from list", minnumber)
+    print("minimum number from list", maxnumber)
+
+    multiplicationpower = pow(4, 5, 3)
+    print("pow result", multiplicationpower)
+
+    num1 = 7.96735
+    roundnumber =round(num1, 3)
+    print("ouput of round() function ", roundnumber)
+
+    listsum = sum(nlist)
+    print("sum of all num in the list ", listsum)
